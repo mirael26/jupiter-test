@@ -1,0 +1,27 @@
+@mixin h1 {
+  font-family: "Epilogue", Arial, sans-serif;
+  font-size: 72px;
+  letter-spacing: -2px;
+  line-height: 80px;
+  font-weight: 800;
+}
+
+@mixin h2 {
+  font-family: "Epilogue", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 800;
+}
+
+@mixin text {  
+  font-family: "Epilogue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+@mixin button-text {
+  font-family: "Epilogue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
