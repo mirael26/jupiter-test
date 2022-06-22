@@ -1,11 +1,12 @@
 .header {
-  padding: 16px 135px 74px;
+  padding: 16px 135px 75px;
   background-color: $blue;
 }
 
 .header__header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 110px;
 }
 
 .header__logo {
@@ -51,7 +52,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 110px 0 78px;
 }
 
 .header__title {
@@ -65,4 +65,29 @@
   width: 39%;
   text-align: center;
   color: #fff;
+}
+
+@media (max-width: 1040px) {
+  .header {
+    padding: 9px 10px 91px;
+  }
+
+  .header__header {
+    justify-content: center;
+    margin-bottom: 93px;
+  }
+
+  .header__nav,
+  .header__contact {
+    display: none;
+  }
+
+  .header__title {
+    @include h1-mobile;
+    margin-bottom: 35px;
+  }
+
+  .header__text {
+    width: 80%;
+  }
 }

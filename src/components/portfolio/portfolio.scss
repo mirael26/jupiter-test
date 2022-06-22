@@ -23,3 +23,9 @@
   filter: drop-shadow(0px 3px 5px rgba(57,20,0,0.08));
   background-color: #ffffff;
 }
+
+@media (max-width: 1040px) {
+  .portfolio {
+    padding: 32px 23px 250px;
+  }
+}
