@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 370px;
+  height: 416px;
+  padding: 62px 49px;
+  border-radius: 6px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &.active {
+    border: 7px solid #4fe24a;
+  }
+}
+
+.card__category {
+  @include text;
+  width: 84px;
+  height: 38px;
+  margin-bottom: 29px;
+  padding: 5px 16px 8px 17px;
+  color: #391400;
+  border-radius: 19px;
+  background-color: #ffffff;
+}
+
+.card__title {
+  @include h2;
+  text-transform: uppercase;
+  color: #fff;
+}

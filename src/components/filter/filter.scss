@@ -1,0 +1,19 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+.filter__item {
+  margin-right: 62px;
+}
+
+.filter__button {
+  @include text;
+  color: #391400;
+
+  &.active {
+    color: #16cd53;
+    cursor: auto;
+  }
+}
