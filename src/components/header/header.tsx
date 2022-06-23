@@ -2,7 +2,7 @@ import * as React from "react";
 
 import Container from "../container/container";
 
-const Header = () => {
+const Header = (): JSX.Element => {
   return (
     <div className="header">
       <Container>

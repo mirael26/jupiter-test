@@ -3,7 +3,7 @@ import * as React from "react";
 import Header from "../header/header";
 import Portfolio from "../portfolio/portfolio";
 
-const App = () => {
+const App = (): JSX.Element => {
   return (
     <div className="app">
       <Header />

@@ -11,15 +11,15 @@
   background-size: cover;
 
   &.active {
-    border: 7px solid #4fe24a;
+    outline: 7px solid #4fe24a;
   }
 }
 
 .card__category {
   @include text;
-  width: 84px;
   height: 38px;
-  margin-bottom: 29px;
+  margin-right: auto;
+  margin-bottom: 29px;  
   padding: 5px 16px 8px 17px;
   color: #391400;
   border-radius: 19px;
@@ -28,6 +28,5 @@
 
 .card__title {
   @include h2;
-  text-transform: uppercase;
   color: #fff;
 }
